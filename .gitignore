@@ -1,0 +1,7 @@
+# Keep repo light; commit only the release you want to serve.
+*.log
+.DS_Store
+Thumbs.db
+
+# Optional: ignore Addressables if you prefer to upload via CI/script instead of git
+# public/addressables/
