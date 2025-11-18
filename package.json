@@ -1,0 +1,25 @@
+{
+  "name": "sv-extract-cdn",
+  "version": "0.1.0",
+  "description": "Static CDN service for SV13: Extraction (MMO) Addressables, UI, maps, and audio logs.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js"
+  },
+  "keywords": [
+    "sv13",
+    "sv-extract",
+    "cdn",
+    "unity",
+    "addressables",
+    "mmo"
+  ],
+  "author": "MadHause Studios / Miles Vance",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0"
+  }
+}
