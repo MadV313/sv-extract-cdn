@@ -1,7 +1,26 @@
-# Keep repo light; commit only the release you want to serve.
+# Node
+node_modules
+npm-debug.log*
+yarn.lock
+package-lock.json
+
+# Logs
+logs
 *.log
+npm-debug.log*
+yarn-error.log*
+
+# OS / IDE
 .DS_Store
 Thumbs.db
+.vscode
+.idea
 
-# Optional: ignore Addressables if you prefer to upload via CI/script instead of git
-# public/addressables/
+# Build artifacts (Unity Addressables bundles)
+public/addressables/**/bin_*.bundle
+public/addressables/**/data_*.bundle
+public/addressables/**/catalog.hash
+public/addressables/**/catalog.json
+
+# You can remove the above ignore if you WANT bundles tracked in git
+# and only deploy via git. If using CI/RSYNC to push bundles, keep them ignored.
